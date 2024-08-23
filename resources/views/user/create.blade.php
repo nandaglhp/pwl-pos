@@ -12,7 +12,7 @@
                     <div class="col-11">
                         <select class="form-control" id="level_id" name="level_id" required>
                             <option value="">- Pilih Level -</option>
-                            @foreach ($levels as $item)
+                            @foreach ($level as $item)
                                 <option value="{{ $item->level_id }}">{{ $item->level_nama }}</option>
                             @endforeach
                         </select>
