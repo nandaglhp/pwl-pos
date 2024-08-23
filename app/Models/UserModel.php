@@ -6,7 +6,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class User extends Authenticatable
+class UserModel extends Authenticatable
 {
     use HasFactory, Notifiable;
 
